@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6cceab713282e4b96e255333fbb842, type: 3}
+  m_Name: CornUp
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeObject
+  Icon: {fileID: -1169003142, guid: bc24a5ab629242e4b874bad178fa8b61, type: 3}
+  Name: CornUpgrade
+  Level: 1
+  MaxLevel: 50
+  Price: 100
+  GrowthRateMultiplePriceFloat: 1.8
+  WhatUpgrade: 'CornLv: '
+  BaseStat: 1
+  GrowthRateStat: 1

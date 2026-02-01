@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f6a64102341844bbbaf6c5c48d6c9f, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: Assembly-CSharp::PlantObject
+  plantName: Tomato
+  plantSprite:
+  - {fileID: -6722333681955717557, guid: d760459a07939dc4a99123b96950558a, type: 3}
+  - {fileID: -3780498461408796120, guid: 8d76837742d7d35449b9c22ae3cf4b46, type: 3}
+  - {fileID: -5827874292771562073, guid: 8d76837742d7d35449b9c22ae3cf4b46, type: 3}
+  - {fileID: 2402415582554515247, guid: 8d76837742d7d35449b9c22ae3cf4b46, type: 3}
+  - {fileID: 8304950708062100032, guid: 8d76837742d7d35449b9c22ae3cf4b46, type: 3}
+  plantIcon: {fileID: -1322868838983756743, guid: 8d76837742d7d35449b9c22ae3cf4b46, type: 3}
+  timeToGrowPerStateHour: 4
+  health: 1
+  level: 1
+  buy_cost: 40
+  growthOfBuy: 2
+  sell_cost: 30
+  growthOfSell: 2
+  state_grow_loop: 3
+  num_loop: 3
